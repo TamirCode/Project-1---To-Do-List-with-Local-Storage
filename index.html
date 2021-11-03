@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ae59da0f02.js" crossorigin="anonymous"></script> <!-- font awesome -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">Task Board</div>
+    <div class="notebook">
+        <textarea id="inputText" placeholder="Type your note here..." maxlength="1000"></textarea>
+    </div>
+    <div class="flexParent">
+        <div class="flexParent2">
+            <input id="inputDate" type="date">
+            <input id="inputTime" type="time">
+            <button id="submitBtn">Add Task</button>
+        </div>
+        <button id="resetFormBtn">Reset Form</button>
+    </div>
+    <!-- Displays error messages to user -->
+    <h3 class="information"></h3>
+    <!-- Contains all the notes -->
+    <ul></ul>
+    <br>
+    <button id="clearBtn">Delete All</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
